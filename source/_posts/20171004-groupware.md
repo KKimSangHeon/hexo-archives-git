@@ -7,6 +7,8 @@ categories:
 tags:
 - Spring Framework
 - Java Script
+- JQgrid
+- fullcallendar
 thumbnail: /images/groupware.png
 ---
 ### 그룹웨어 개발
@@ -35,7 +37,7 @@ thumbnail: /images/groupware.png
 승인되지 않은 아이디로 로그인 할 경우 위와 같은 화면이 출력된다.
 
 #### 관리자의 가입 승인
-사전에 지정해 놓은 아이디로 로그인 하여 관리자 화면에 접속하여 신규 가입한 회원에 한해 승인을 해줄 수 있다.
+사전에 지정해 놓은 아이디로 로그인 하여 관리자 화면에 접속하고 신규 가입한 회원에 한해 승인을 해줄 수 있다.
 
 {% asset_img 관리자_로그인.PNG 관리자 로그인%}
 관리자 계정으로 로그인을 할 경우 우측 상단에 관리페이지가 출력된다. 이는 EMPLOYEE 테이블의 ROLE 컬럼값을 통해 판단한다. ROLE컬럼의 값은 USER, ADMIN으로 나뉜다. 관리자가 아님에도 불구하고 URL로 관리자 페이지로 접속할 경우 다음과 같은 화면이 출력된다.
